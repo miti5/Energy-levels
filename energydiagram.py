@@ -6,7 +6,7 @@ from .box_notation import plot_orbital_boxes
 class ED:
     def __init__(self, aspect='equal'):
         # plot parameters
-        self.ratio = 1.6181
+        self.ratio = 2
         self.dimension = 'auto'
         self.space = 'auto'
         self.offset = 'auto'
