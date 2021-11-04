@@ -6,7 +6,7 @@ from .box_notation import plot_orbital_boxes
 class ED:
     def __init__(self, aspect='equal'):
         # plot parameters
-        self.ratio = 2
+        self.ratio = 1.6181
         self.dimension = 'auto'
         self.space = 'auto'
         self.offset = 'auto'
@@ -97,53 +97,12 @@ class ED:
         Add a arrow between two energy levels using IDs of the level. Use
         self.plot(show_index=True) to show the IDs of the levels.
 
-        Parameters
-        ----------
-        start_level_id : int
-                 Starting level ID
-        end_level_id : int
-                 Ending level ID
+      
 
-        Returns
-        -------
-        Append arrow to self.arrows
-
-        '''
-        self.arrows[start_level_id].append(end_level_id)
-
-
-
-        '''
-
-
-
-        '''
-        Method of ED class
-        Add a link between two energy levels using IDs of the level. Use
-        self.plot(show_index=True) to show the IDs of the levels.
-
-        Parameters
-        ----------
-        start_level_id : int
-                 Starting level ID
-        end_level_id : int
-                 Ending level ID
-
-        Returns
-        -------
-        Append link to self.links
-
-        '''
-        self.__auto_adjust()
-        x = self.positions[level_id] * \
-            (self.dimension+self.space)+self.dimension*0.5
-        y = self.energies[level_id]
-        self.electons_boxes.append((x, y, boxes, electrons, side, spacing_f))
-
-    def plot(self, show_IDs=False, ylabel="Energy (eV)", ax: plt.Axes = None):
-        '''
 
   
+       
+       
 
 
 
