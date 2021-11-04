@@ -29,7 +29,7 @@ class ED:
         self.fig = None
         self.ax = None
 
-    def add_level(self, energy, bottom_text='', position=None, color='k',
+    def add_level(self, energy, bottom_text='', position=None, color='b',
                   top_text='', right_text='', left_text=''):
         '''
         Method of ED class
