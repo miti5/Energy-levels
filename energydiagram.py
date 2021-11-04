@@ -30,7 +30,7 @@ class ED:
         self.ax = None
 
     def add_level(self, energy, bottom_text='', position=None, color='k',
-                  top_text='Energy', right_text='', left_text=''):
+                  top_text='', right_text='', left_text=''):
         '''
         Method of ED class
         This method add a new energy level to the plot.
