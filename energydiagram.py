@@ -38,7 +38,7 @@ class ED:
         Parameters
         ----------
         energy : int
-                The energy of the level in Kcal mol-1
+                The energy of the level in eV
         bottom_text  : str
                 The text on the bottom of the level (label of the level)
                 (default '')
@@ -82,7 +82,6 @@ class ED:
 
         link = []
         self.colors.append(color)
-        self.energies.append(energy)
         self.positions.append(position)
         self.top_texts.append(top_text)
         self.bottom_texts.append(bottom_text)
