@@ -11,7 +11,7 @@ class ED:
         self.space = 'auto'
         self.offset = 'auto'
         self.offset_ratio = 0.02
-        self.color_bottom_text = 'black'
+        self.color_bottom_text = 'blue'
         self.aspect = aspect
         # data
         self.pos_number = 0
@@ -29,7 +29,7 @@ class ED:
         self.fig = None
         self.ax = None
 
-    def add_level(self, energy, bottom_text='', position=None, color='b',
+    def add_level(self, energy, bottom_text='', position=None, color='k',
                   top_text='', right_text='', left_text=''):
         '''
         Method of ED class
