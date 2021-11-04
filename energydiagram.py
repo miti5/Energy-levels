@@ -11,7 +11,7 @@ class ED:
         self.space = 'auto'
         self.offset = 'auto'
         self.offset_ratio = 0.02
-        self.color_bottom_text = 'blue'
+        self.color_bottom_text = 'black'
         self.aspect = aspect
         # data
         self.pos_number = 0
