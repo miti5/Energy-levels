@@ -83,6 +83,7 @@ class ED:
         link = []
         self.colors.append(color)
         self.positions.append(position)
+        self.energies.append(energy)
         self.top_texts.append(top_text)
         self.bottom_texts.append(bottom_text)
         self.left_texts.append(left_text)
