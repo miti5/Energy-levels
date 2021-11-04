@@ -1,18 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 23 13:09:19 2017
-
---- Energy profile diagram---
-This is a simple script to plot energy profile diagram using matplotlib.
-E|          4__
-n|   2__    /  \
-e|1__/  \__/5   \
-r|  3\__/       6\__
-g|
-y|
-@author: Giacomo Marchioro giacomomarchioro@outlook.com
-
-"""
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from .box_notation import plot_orbital_boxes
