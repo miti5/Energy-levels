@@ -5,7 +5,7 @@ This is a simple module to plot energy profile diagrams using Python and matplot
 ## Installation 
 If you are new to Python the easiest way to get started is to use a distribution like [Anaconda](https://www.anaconda.com/). Then you can use the terminal to install the module using pip:
 
-    pip install git+https://github.com/giacomomarchioro/PyEnergyDiagrams
+    pip install git+https://github.com/miti5/Energy-levels.git
 
 The only requirments is [matplotlib](http://matplotlib.org/users/installing.html) which is installed by defult using Anaconda.
   
