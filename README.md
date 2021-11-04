@@ -15,13 +15,13 @@ The only requirments is [matplotlib](http://matplotlib.org/users/installing.html
 ```python
 from energydiagram import ED
 diagram = ED()
-diagram.add_level(0,'Separated Reactants')
-diagram.add_level(5.4,'mlC1','last')
-diagram.add_level(15.6,'mlC2','last',) #Using 'last'  or 'l' it will be together with the previous level
-diagram.add_level(28.5,'mTS1','last',color='g')
-diagram.add_level(9.7,'mCARB1','last')
-diagram.add_level(9.8,'mCARB2','last','l')
-diagram.add_level(20,'mCARBX','last','last')
+diagram.add_level(0,'Ground State',color='g')
+diagram.add_level(0.01118218,'mlC1','l',color='g').     #Using 'last'  or 'l' it will be together with the previous level
+diagram.add_level(0.01251077,'mlC2','l',color='g') 
+diagram.add_level(0.020374476,'mTS1','l',color='g')
+diagram.add_level(0.02077393,'mCARB1','l',color='g')
+diagram.add_level(0.03002172,'mCARB2','l',color='g')
+diagram.add_level(0.03465493,'mCARBX','l',color='g')
 ```
 Show the IDs (red numbers) for understanding how to link the levels:
 
